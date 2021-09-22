@@ -8,7 +8,7 @@ namespace com.allcard.institution.models
     public class Member : BaseEntity
     {
         [Required]
-        [StringLength(20)]
+        [StringLength(14)]
         public string CCANo { get; set; }
 
         [Required]

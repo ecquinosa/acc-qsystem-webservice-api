@@ -79,7 +79,7 @@ namespace com.allcard.institution.services
                     member.FullName = string.Format("{0}{1}{2}{3}",entity.FirstName, middleName, entity.LastName,entity.Suffix).Trim();
                     member.MobileNumber = entity.MobileNumber;
                     member.Birthdate = entity.BirthDate;
-                    member.BirthPlace = entity.BirthPlace;
+                    //member.BirthPlace = entity.BirthPlace;
                     member.Email = entity.Email;
                     member.CreatedBy = user.ID;
                     member.UpdatedBy = user.ID;
